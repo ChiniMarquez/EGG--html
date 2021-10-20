@@ -1,0 +1,46 @@
+/*la pagina va a tener un color de fondo a elección, 
+el encabezado H1 tiene que tener una fuente a elección y estar centrado,
+lo mismo para el encabezado H2.
+los párrafos deben tener un fuente a elección, deben tener un color a elección y estar centrados a la izquierda.
+
+ */
+
+
+/* Definir las reglas CSS que permiten mostrar los enlaces con los siguientes estilos:
+• En su estado normal, los enlaces se muestran de color rojo #CC0000.
+• Cuando el usuario pasa su ratón sobre el enlace, se muestra con un color de fondo
+rojo #CC0000 y la letra de color blanco #FFF.
+• Los enlaces visitados se muestran en color gris claro #CCC.*/
+
+body {
+    background-color: rgba(243, 183, 243, 0.678);
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia;
+    color: rgb(112, 142, 143);
+    text-align: left;
+}
+
+a:link {
+    color: #CC0000;
+}
+
+a:hover {
+    background-color: #CC0000;
+    color: #FFF;
+}
+
+a:visited {
+    color: #CCC;
+}
