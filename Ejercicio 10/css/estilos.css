@@ -1,0 +1,68 @@
+h1 {
+    color: teal;
+    text-align: left;
+}
+
+strong {
+    color: red;
+}
+
+span.destacado {
+    color: yellow;
+}
+
+h2 {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+span.especial {
+    color: rgb(103, 0, 199);
+}
+
+th.especial {
+    color: rgb(202, 202, 25);
+}
+
+th {
+    color: red;
+    border: 1px solid black;
+}
+
+td {
+    color: green;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+table {
+    border-style: 1px solid black;
+    border-bottom: none;
+}
+
+div#adicional {
+    color: rgb(148, 160, 36);
+}
+
+span#especial {
+    color: rgb(255, 0, 200);
+}
+
+div#adicional a {
+    color: green;
+}
+
+tr em {
+    color: green;
+}
+
+tr strong {
+    color: yellow;
+}

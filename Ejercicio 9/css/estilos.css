@@ -1,0 +1,26 @@
+ul {
+    list-style-type: square;
+}
+
+ul {
+    width: 180px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid pink;
+    border-bottom: none;
+}
+
+ul li {
+    background: rgb(255, 241, 255);
+    border-bottom: 1px solid pink;
+    border: 2px solid rgb(97, 39, 84);
+}
+
+ul li a {
+    color: brown;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: darkorchid;
+}
