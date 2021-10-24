@@ -1,12 +1,33 @@
 table {
-    border-collapse: collapse #333;
-    text-align: center;
+    border-collapse: collapse;
 }
 
-th {
-    border-collapse: collapse #333;
+thead tr th {
+    border: 1px solid #333;
+    background-image: url(./../img/fondo_gris.gif);
+    font-family: Arial;
+    text-align: center;
+    padding: 7px;
+}
+
+tbody tr th {
+    border: 1px solid #333;
+    background-color: #E6F3FF;
+    text-align: left;
+    font-family: Arial;
+    font-size: 85%;
 }
 
 td {
-    border-collapse: collapse #333;
+    border: 1px solid #333;
+    text-align: center;
+    font-family: Arial;
+}
+
+.fila {
+    background-color: #FFFFCC;
+}
+
+.fila2 {
+    background-color: #FFFFCC;
 }
